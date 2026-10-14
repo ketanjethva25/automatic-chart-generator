@@ -1,0 +1,401 @@
+order_id,order_date,region,product_category,units_sold,unit_price,discount_pct,revenue,customer_rating,currency,customer_comment
+1001,2024-01-02,East,Clothing,12,49.68,20,480.99,5.0,USD,"Great value for the price, will buy again"
+1002,2024-01-03,West,Groceries,7,25.16,20,142.69,3.0,USD,Not what I expected from the photos
+1003,2024-01-04,South,Toys,14,34.32,15,415.46,4.0,USD,Arrived late but product is fine
+1004,2024-01-08,North,Groceries,1,21.71,0,22.46,3.0,USD,Excellent quality and fast delivery
+1005,2024-01-08,North,Toys,3,43.38,0,134.61,4.0,USD,Not what I expected from the photos
+1006,2024-01-09,North,Groceries,14,24.42,10,319.57,4.0,USD,Not what I expected from the photos
+1007,2024-01-09,North,Groceries,5,30.37,20,126.17,3.0,USD,Not what I expected from the photos
+1008,2024-01-09,East,Electronics,5,283.09,15,1249.53,3.0,USD,"Great value for the price, will buy again"
+1009,2024-01-12,North,Groceries,12,28.17,0,355.37,4.0,USD,Excellent quality and fast delivery
+1010,2024-01-12,South,Clothing,3,60.45,0,190.65,3.0,USD,
+1011,2024-01-13,East,Clothing,8,65.82,20,444.61,4.0,USD,Excellent quality and fast delivery
+1012,2024-01-14,East,Groceries,5,26.75,0,141.71,4.0,USD,Average experience overall
+1013,2024-01-14,North,Toys,3,40.51,0,128.78,5.0,USD,Excellent quality and fast delivery
+1014,2024-01-16,West,Toys,14,49.1,20,587.32,3.0,USD,Not what I expected from the photos
+1015,2024-01-16,East,Furniture,3,209.93,5,638.97,4.0,USD,Arrived late but product is fine
+1016,2024-01-17,East,Groceries,2,21.99,0,47.16,3.0,USD,Average experience overall
+1017,2024-01-17,North,Groceries,10,27.63,0,296.21,5.0,USD,Arrived late but product is fine
+1018,2024-01-22,North,Furniture,13,259.75,5,3504.49,5.0,USD,Not what I expected from the photos
+1019,2024-01-24,West,Electronics,2,245.43,20,432.11,4.0,USD,
+1020,2024-01-24,South,Electronics,10,300.7,5,3143.38,3.0,USD,Average experience overall
+1021,2024-01-25,South,Groceries,8,30.04,10,238.85,4.0,USD,Average experience overall
+1022,2024-01-25,South,Clothing,12,68.24,0,904.28,4.0,USD,
+1023,2024-01-28,East,Toys,2,49.85,15,94.57,5.0,USD,Average experience overall
+1024,2024-01-29,,Clothing,14,62.35,15,830.74,4.0,USD,"Great value for the price, will buy again"
+1025,2024-01-29,North,Toys,9,43.88,10,397.97,4.0,USD,Not what I expected from the photos
+1026,2024-01-31,West,Clothing,12,56.17,15,645.76,,USD,Average experience overall
+1027,2024-01-31,North,Groceries,6,30.66,10,186.62,3.0,USD,Excellent quality and fast delivery
+1028,2024-02-01,East,Electronics,14,289.46,0,4582.64,5.0,USD,Average experience overall
+1029,2024-02-01,East,Clothing,9,67.94,15,587.75,5.0,USD,Arrived late but product is fine
+1030,2024-02-02,North,Groceries,2,24.54,15,47.32,5.0,USD,Arrived late but product is fine
+1031,2024-02-02,North,Toys,13,42.11,15,527.94,3.0,USD,Arrived late but product is fine
+1032,2024-02-03,South,Groceries,12,28.1,0,383.74,5.0,USD,Arrived late but product is fine
+1033,2024-02-03,West,Electronics,5,308.71,10,1581.04,5.0,USD,Excellent quality and fast delivery
+1034,2024-02-03,East,Furniture,8,265.8,0,2420.09,3.0,USD,Not what I expected from the photos
+1035,2024-02-04,West,Electronics,6,296.61,10,1828.59,4.0,USD,Excellent quality and fast delivery
+1036,2024-02-04,West,Electronics,8,327.35,5,2840.37,4.0,USD,Not what I expected from the photos
+1037,2024-02-04,South,Groceries,14,23.85,0,381.23,4.0,USD,
+1038,2024-02-05,East,Groceries,13,24.59,20,292.89,2.0,USD,"Great value for the price, will buy again"
+1039,2024-02-05,North,Groceries,4,24.95,20,91.43,,USD,Not what I expected from the photos
+1040,2024-02-07,North,Groceries,14,21.42,0,345.42,4.0,USD,
+1041,2024-02-08,West,Groceries,7,21.03,0,170.12,4.0,USD,
+1042,2024-02-09,East,Groceries,10,27.51,0,318.79,4.0,USD,Arrived late but product is fine
+1043,2024-02-09,North,Electronics,11,328.49,20,3349.97,,USD,Not what I expected from the photos
+1044,2024-02-11,South,Electronics,7,329.49,5,2553.56,4.0,USD,Excellent quality and fast delivery
+1045,2024-02-12,East,Clothing,7,48.53,15,337.47,4.0,USD,Excellent quality and fast delivery
+1046,2024-02-13,West,Groceries,7,23.67,15,165.05,4.0,USD,"Great value for the price, will buy again"
+1047,2024-02-13,East,Electronics,13,266.7,15,3453.28,4.0,USD,Not what I expected from the photos
+1048,2024-02-14,South,Clothing,6,69.01,0,486.47,4.0,USD,"Great value for the price, will buy again"
+1049,2024-02-16,South,Groceries,4,29.68,0,140.21,,USD,"Great value for the price, will buy again"
+1050,2024-02-16,South,Electronics,6,273.3,0,1936.47,5.0,USD,Excellent quality and fast delivery
+1051,2024-02-16,East,Clothing,3,66.03,0,233.93,4.0,USD,"Great value for the price, will buy again"
+1052,2024-02-17,West,Groceries,6,21.46,15,129.54,4.0,USD,Arrived late but product is fine
+1053,2024-02-21,South,Groceries,2,23.1,0,55.2,,USD,Not what I expected from the photos
+1054,2024-02-21,North,Electronics,2,258.72,0,618.38,3.0,USD,Excellent quality and fast delivery
+1055,2024-02-21,North,Groceries,11,23.19,0,304.85,3.0,USD,Not what I expected from the photos
+1056,2024-02-21,East,Furniture,2,242.8,0,580.33,4.0,USD,"Great value for the price, will buy again"
+1057,2024-02-21,West,Groceries,8,30.24,0,289.12,4.0,USD,Excellent quality and fast delivery
+1058,2024-02-22,North,Furniture,11,196.05,0,2582.97,4.0,USD,Average experience overall
+1059,2024-02-25,North,Clothing,11,62.64,5,788.97,4.0,USD,Average experience overall
+1060,2024-02-25,East,Furniture,7,245.44,0,2070.9,5.0,USD,Excellent quality and fast delivery
+1061,2024-02-25,North,Furniture,3,270.34,5,928.7,,USD,Not what I expected from the photos
+1062,2024-02-25,West,Groceries,14,26.86,5,430.65,4.0,USD,Average experience overall
+1063,2024-02-26,South,Electronics,12,274.44,15,3380.95,4.0,USD,Not what I expected from the photos
+1064,2024-02-28,North,Electronics,9,324.44,20,2832.25,2.0,USD,"Great value for the price, will buy again"
+1065,2024-02-28,West,Furniture,2,207.73,5,478.54,5.0,USD,Average experience overall
+1066,2024-02-28,North,Groceries,1,30.98,10,33.81,5.0,USD,Arrived late but product is fine
+1067,2024-03-01,North,Groceries,5,24.5,15,126.69,4.0,USD,Average experience overall
+1068,2024-03-01,North,Toys,3,44.34,10,145.67,3.0,USD,Arrived late but product is fine
+1069,2024-03-01,North,Furniture,13,178.3,0,2820.56,5.0,USD,Average experience overall
+1070,2024-03-01,North,Clothing,3,58.8,20,171.73,4.0,USD,Not what I expected from the photos
+1071,2024-03-03,North,Electronics,4,358.14,0,1749.18,5.0,USD,Not what I expected from the photos
+1072,2024-03-04,North,Clothing,14,64.48,0,1103.96,4.0,USD,
+1073,2024-03-05,North,Toys,12,39.99,10,529.04,4.0,USD,Average experience overall
+1074,2024-03-06,East,Groceries,4,30.53,0,149.81,5.0,USD,"Great value for the price, will buy again"
+1075,2024-03-06,East,Clothing,6,71.06,0,523.02,4.0,USD,Not what I expected from the photos
+1076,2024-03-06,,Furniture,8,207.9,20,1632.26,3.0,USD,Arrived late but product is fine
+1077,2024-03-07,South,Toys,10,41.8,0,513.55,5.0,USD,Not what I expected from the photos
+1078,2024-03-09,South,Clothing,14,61.23,0,1055.91,,USD,Arrived late but product is fine
+1079,2024-03-10,West,Electronics,13,325.35,20,4173.55,4.0,USD,Excellent quality and fast delivery
+1080,2024-03-12,West,Furniture,14,,15,3076.18,4.0,USD,Arrived late but product is fine
+1081,2024-03-12,North,Electronics,1,272.97,0,337.5,4.0,USD,"Great value for the price, will buy again"
+1082,2024-03-13,North,Electronics,4,363.21,15,1528.54,5.0,USD,"Great value for the price, will buy again"
+1083,2024-03-14,North,Electronics,8,364.72,20,2892.24,3.0,USD,Excellent quality and fast delivery
+1084,2024-03-14,North,Clothing,1,70.77,0,87.69,4.0,USD,Arrived late but product is fine
+1085,2024-03-14,East,Clothing,5,74.41,0,461.0,4.0,USD,Arrived late but product is fine
+1086,2024-03-19,South,Furniture,3,249.75,5,885.81,5.0,USD,Excellent quality and fast delivery
+1087,2024-03-22,North,Clothing,14,68.65,0,1198.27,3.0,USD,Arrived late but product is fine
+1088,2024-03-23,South,Toys,1,45.73,0,57.04,3.0,USD,Arrived late but product is fine
+1089,2024-03-23,South,Groceries,3,25.41,0,95.08,3.0,USD,Arrived late but product is fine
+1090,2024-03-25,North,Clothing,3,60.32,0,225.95,4.0,USD,Arrived late but product is fine
+1091,2024-03-26,West,Furniture,3,199.78,0,748.57,,USD,Excellent quality and fast delivery
+1092,2024-03-27,North,Groceries,8,27.25,5,258.78,4.0,USD,Not what I expected from the photos
+1093,2024-03-28,West,Electronics,6,279.06,0,2092.28,5.0,USD,Average experience overall
+1094,2024-03-28,North,Furniture,13,201.52,0,3273.72,4.0,USD,Excellent quality and fast delivery
+1095,2024-03-28,West,Toys,4,42.55,0,212.67,4.0,USD,"Great value for the price, will buy again"
+1096,2024-03-30,West,Clothing,8,59.07,15,502.07,4.0,USD,Arrived late but product is fine
+1097,2024-03-30,West,Groceries,10,,0,280.76,5.0,USD,Arrived late but product is fine
+1098,2024-04-03,West,Clothing,9,70.03,20,630.16,4.0,USD,Not what I expected from the photos
+1099,2024-04-05,East,Groceries,12,29.68,5,422.68,4.0,USD,Arrived late but product is fine
+1100,2024-04-05,East,Furniture,3,192.6,15,613.51,4.0,USD,Average experience overall
+1101,2024-04-06,East,Electronics,8,241.01,10,2167.0,5.0,USD,Arrived late but product is fine
+1102,2024-04-07,North,Furniture,12,209.28,0,3134.92,5.0,USD,Not what I expected from the photos
+1103,2024-04-07,South,Electronics,13,347.66,10,5077.73,3.0,USD,"Great value for the price, will buy again"
+1104,2024-04-09,South,Groceries,9,29.44,0,330.46,5.0,USD,Average experience overall
+1105,2024-04-10,West,Furniture,10,189.69,0,2364.52,4.0,USD,Average experience overall
+1106,2024-04-10,South,Clothing,13,68.91,0,1116.59,5.0,USD,Excellent quality and fast delivery
+1107,2024-04-11,South,Groceries,9,21.3,0,238.83,5.0,USD,
+1108,2024-04-11,East,Groceries,14,24.39,0,425.34,5.0,USD,"Great value for the price, will buy again"
+1109,2024-04-12,North,Clothing,2,74.96,0,186.64,4.0,USD,
+1110,2024-04-12,North,Clothing,5,53.2,20,264.92,4.0,USD,Not what I expected from the photos
+1111,2024-04-12,South,Toys,2,34.77,5,82.25,5.0,USD,Average experience overall
+1112,2024-04-13,South,Groceries,2,24.76,0,61.59,4.0,USD,Excellent quality and fast delivery
+1113,2024-04-15,North,Groceries,7,26.97,20,187.59,4.0,USD,Not what I expected from the photos
+1114,2024-04-16,South,Toys,4,48.79,0,242.18,5.0,USD,Average experience overall
+1115,2024-04-17,South,Groceries,6,31.03,0,230.84,4.0,USD,Average experience overall
+1116,2024-04-17,South,Electronics,7,249.4,15,1839.61,3.0,USD,Not what I expected from the photos
+1117,2024-04-19,South,Clothing,9,51.73,10,518.32,3.0,USD,"Great value for the price, will buy again"
+1118,2024-04-19,East,Electronics,14,,0,6005.45,4.0,USD,"Great value for the price, will buy again"
+1119,2024-04-20,North,Groceries,12,23.04,0,341.71,3.0,USD,Not what I expected from the photos
+1120,2024-04-20,West,Toys,6,47.93,0,355.34,5.0,USD,Not what I expected from the photos
+1121,2024-04-20,West,Clothing,5,65.91,0,407.24,5.0,USD,"Great value for the price, will buy again"
+1122,2024-04-21,South,Clothing,11,51.02,0,692.67,5.0,USD,"Great value for the price, will buy again"
+1123,2024-04-22,South,Electronics,2,352.39,15,738.46,3.0,USD,
+1124,2024-04-23,South,Toys,8,35.17,10,311.78,5.0,USD,Excellent quality and fast delivery
+1125,2024-04-23,West,Electronics,6,297.17,5,2085.29,5.0,USD,"Great value for the price, will buy again"
+1126,2024-04-24,East,Electronics,3,314.54,15,986.09,4.0,USD,Not what I expected from the photos
+1127,2024-04-25,West,Electronics,9,307.6,0,3398.67,4.0,USD,"Great value for the price, will buy again"
+1128,2024-04-25,South,Electronics,5,332.63,0,2041.78,3.0,USD,Excellent quality and fast delivery
+1129,2024-04-25,East,Clothing,3,65.62,0,241.68,4.0,USD,Average experience overall
+1130,2024-04-27,North,Clothing,10,74.79,20,732.27,3.0,USD,
+1131,2024-04-27,East,Furniture,3,,10,908.6,4.0,USD,Not what I expected from the photos
+1132,2024-04-28,North,Electronics,10,309.72,15,3217.12,3.0,USD,
+1133,2024-04-30,East,Electronics,3,252.85,0,923.87,5.0,USD,Average experience overall
+1134,2024-04-30,West,Furniture,7,248.06,15,1797.58,5.0,USD,Excellent quality and fast delivery
+1135,2024-05-01,North,Electronics,12,371.85,0,5425.07,4.0,USD,Not what I expected from the photos
+1136,2024-05-02,East,Groceries,4,23.58,0,114.47,4.0,USD,Excellent quality and fast delivery
+1137,2024-05-02,North,Electronics,11,302.26,5,3833.28,3.0,USD,Not what I expected from the photos
+1138,2024-05-03,East,Furniture,11,218.05,0,2905.43,4.0,USD,Average experience overall
+1139,2024-05-05,North,Furniture,13,181.09,20,2272.42,3.0,USD,Not what I expected from the photos
+1140,2024-05-06,West,Clothing,3,66.15,20,191.17,3.0,USD,Average experience overall
+1141,2024-05-06,North,Electronics,11,287.7,5,3620.2,4.0,USD,"Great value for the price, will buy again"
+1142,2024-05-09,West,Electronics,14,346.31,0,5800.57,4.0,USD,"Great value for the price, will buy again"
+1143,2024-05-12,West,Groceries,11,29.36,0,383.75,4.0,USD,"Great value for the price, will buy again"
+1144,2024-05-12,East,Electronics,3,350.87,10,1125.6,4.0,USD,Not what I expected from the photos
+1145,2024-05-12,East,Clothing,12,59.25,5,802.55,5.0,USD,Excellent quality and fast delivery
+1146,2024-05-13,East,Clothing,2,56.68,15,114.21,4.0,USD,Arrived late but product is fine
+1147,2024-05-13,West,Furniture,9,250.13,10,2401.52,4.0,USD,"Great value for the price, will buy again"
+1148,2024-05-14,North,Clothing,7,69.64,0,576.37,5.0,USD,Average experience overall
+1149,2024-05-15,East,Groceries,8,25.53,0,240.85,3.0,USD,Excellent quality and fast delivery
+1150,2024-05-15,North,Groceries,8,30.05,15,240.98,4.0,USD,
+1151,2024-05-15,East,Furniture,1,190.25,0,224.38,4.0,USD,Not what I expected from the photos
+1152,2024-05-16,North,Furniture,8,263.03,20,1980.32,3.0,USD,Not what I expected from the photos
+1153,2024-05-18,East,Electronics,14,252.97,0,4144.38,5.0,USD,"Great value for the price, will buy again"
+1154,2024-05-19,East,Clothing,7,52.15,15,362.08,3.0,USD,"Great value for the price, will buy again"
+1155,2024-05-21,South,Groceries,4,26.01,20,96.58,4.0,USD,Average experience overall
+1156,2024-05-26,South,Electronics,14,249.11,5,3788.49,5.0,USD,Arrived late but product is fine
+1157,2024-05-28,East,Furniture,2,181.23,0,411.86,2.0,USD,Excellent quality and fast delivery
+1158,2024-05-29,East,Toys,7,32.01,20,203.04,5.0,USD,Excellent quality and fast delivery
+1159,2024-05-29,South,Electronics,8,298.9,0,2708.5,2.0,USD,Arrived late but product is fine
+1160,2024-05-29,East,Clothing,7,68.91,5,519.09,4.0,USD,
+1161,2024-05-29,West,Groceries,13,20.39,20,240.21,4.0,USD,Excellent quality and fast delivery
+1162,2024-05-31,North,Electronics,6,328.05,15,1882.73,4.0,USD,"Great value for the price, will buy again"
+1163,2024-06-01,North,Electronics,14,351.12,0,5513.3,3.0,USD,Not what I expected from the photos
+1164,2024-06-01,,Electronics,1,262.68,15,250.42,3.0,USD,Average experience overall
+1165,2024-06-06,East,Toys,11,34.64,0,420.08,5.0,USD,Excellent quality and fast delivery
+1166,2024-06-07,South,Electronics,9,356.21,15,2993.12,3.0,USD,Excellent quality and fast delivery
+1167,2024-06-07,East,Electronics,4,351.12,10,1388.42,5.0,USD,"Great value for the price, will buy again"
+1168,2024-06-07,East,Electronics,4,312.76,0,1374.13,4.0,USD,"Great value for the price, will buy again"
+1169,2024-06-07,South,Electronics,11,350.59,0,4235.98,3.0,USD,Arrived late but product is fine
+1170,2024-06-08,West,Clothing,9,50.5,0,497.46,4.0,USD,Arrived late but product is fine
+1171,2024-06-08,East,Electronics,9,293.26,20,2310.81,3.0,USD,"Great value for the price, will buy again"
+1172,2024-06-09,North,Clothing,1,67.92,0,74.06,5.0,USD,Average experience overall
+1173,2024-06-09,South,Clothing,9,54.95,0,539.28,5.0,USD,"Great value for the price, will buy again"
+1174,2024-06-09,,Groceries,14,28.46,5,412.8,3.0,USD,Excellent quality and fast delivery
+1175,2024-06-10,North,Electronics,1,308.06,10,301.21,4.0,USD,
+1176,2024-06-10,North,Groceries,7,28.44,5,205.47,4.0,USD,Excellent quality and fast delivery
+1177,2024-06-11,West,Clothing,7,60.55,5,435.79,5.0,USD,Arrived late but product is fine
+1178,2024-06-11,South,Electronics,13,289.67,10,3668.2,3.0,USD,
+1179,2024-06-12,South,Groceries,4,22.47,20,77.52,5.0,USD,Excellent quality and fast delivery
+1180,2024-06-12,East,Groceries,7,22.34,0,168.65,4.0,USD,Arrived late but product is fine
+1181,2024-06-13,East,Furniture,11,250.4,15,2514.88,3.0,USD,Excellent quality and fast delivery
+1182,2024-06-13,West,Toys,1,34.14,15,31.17,3.0,USD,"Great value for the price, will buy again"
+1183,2024-06-13,East,Clothing,12,50.32,20,518.92,3.0,USD,"Great value for the price, will buy again"
+1184,2024-06-15,South,Clothing,12,52.76,20,539.88,3.0,USD,Excellent quality and fast delivery
+1185,2024-06-15,South,Toys,11,35.16,15,350.38,4.0,USD,Excellent quality and fast delivery
+1186,2024-06-16,West,Furniture,10,257.49,0,2733.89,3.0,USD,"Great value for the price, will buy again"
+1187,2024-06-16,East,Groceries,11,24.48,15,243.05,2.0,USD,Average experience overall
+1188,2024-06-17,West,Furniture,11,274.05,15,2709.88,4.0,USD,"Great value for the price, will buy again"
+1189,2024-06-17,North,Groceries,13,21.54,0,296.19,3.0,USD,Average experience overall
+1190,2024-06-18,West,Clothing,6,65.65,10,373.41,3.0,USD,Excellent quality and fast delivery
+1191,2024-06-19,East,Electronics,7,300.58,0,2207.5,4.0,USD,Average experience overall
+1192,2024-06-19,North,Clothing,9,58.61,5,525.74,4.0,USD,Average experience overall
+1193,2024-06-20,East,Furniture,3,262.63,15,699.81,5.0,USD,Arrived late but product is fine
+1194,2024-06-20,East,Electronics,12,371.71,0,4660.93,4.0,USD,Excellent quality and fast delivery
+1195,2024-06-20,North,Electronics,11,357.84,0,4113.09,4.0,USD,
+1196,2024-06-21,South,Furniture,9,195.04,15,1552.77,3.0,USD,Not what I expected from the photos
+1197,2024-06-21,West,Electronics,5,269.81,5,1333.75,4.0,USD,Arrived late but product is fine
+1198,2024-06-22,North,Electronics,5,328.57,20,1362.19,4.0,USD,Not what I expected from the photos
+1199,2024-06-25,South,Groceries,7,23.25,0,166.61,4.0,USD,Average experience overall
+1200,2024-06-26,South,Groceries,10,28.27,15,244.91,4.0,USD,Not what I expected from the photos
+1201,2024-06-28,South,Groceries,11,26.37,15,249.23,3.0,USD,"Great value for the price, will buy again"
+1202,2024-06-28,West,Furniture,10,230.54,20,1864.16,3.0,USD,Arrived late but product is fine
+1203,2024-06-29,East,Groceries,14,29.32,0,413.15,,USD,Excellent quality and fast delivery
+1204,2024-06-29,North,Clothing,14,67.18,20,757.32,4.0,USD,Not what I expected from the photos
+1205,2024-06-29,West,Electronics,10,243.59,0,2451.6,4.0,USD,Not what I expected from the photos
+1206,2024-06-30,West,Electronics,6,,0,1483.25,4.0,USD,Not what I expected from the photos
+1207,2024-06-30,North,Groceries,9,26.77,0,241.43,4.0,USD,
+1208,2024-07-01,West,Electronics,6,305.64,10,1646.88,3.0,USD,
+1209,2024-07-01,North,Clothing,9,55.02,10,444.74,4.0,USD,
+1210,2024-07-03,West,Toys,12,39.54,5,445.86,4.0,USD,Average experience overall
+1211,2024-07-03,East,Electronics,6,342.32,0,2031.82,4.0,USD,Excellent quality and fast delivery
+1212,2024-07-06,East,Electronics,8,351.59,20,2197.01,3.0,USD,Average experience overall
+1213,2024-07-06,North,Toys,1,,0,41.11,5.0,USD,Average experience overall
+1214,2024-07-08,West,Clothing,11,58.4,0,621.78,4.0,USD,"Great value for the price, will buy again"
+1215,2024-07-09,North,Electronics,7,276.54,10,1678.72,4.0,USD,Arrived late but product is fine
+1216,2024-07-11,North,Groceries,7,,0,172.96,4.0,USD,Arrived late but product is fine
+1217,2024-07-13,North,Groceries,8,23.54,10,160.45,5.0,USD,
+1218,2024-07-16,East,Clothing,4,,20,189.0,3.0,USD,"Great value for the price, will buy again"
+1219,2024-07-17,North,Clothing,9,66.27,0,554.64,5.0,USD,
+1220,2024-07-17,West,Furniture,11,182.54,0,1867.29,3.0,USD,
+1221,2024-07-18,East,Electronics,5,240.14,5,1056.07,4.0,USD,"Great value for the price, will buy again"
+1222,2024-07-18,North,Clothing,2,53.73,15,84.57,5.0,USD,Arrived late but product is fine
+1223,2024-07-18,North,Furniture,6,264.56,10,1322.63,4.0,USD,Arrived late but product is fine
+1224,2024-07-18,North,Groceries,3,27.27,0,75.74,4.0,USD,"Great value for the price, will buy again"
+1225,2024-07-21,East,Groceries,6,21.93,10,108.21,4.0,USD,"Great value for the price, will buy again"
+1226,2024-07-21,West,Electronics,9,360.19,20,2369.26,4.0,USD,Excellent quality and fast delivery
+1227,2024-07-21,North,Clothing,2,60.69,5,105.35,4.0,USD,Average experience overall
+1228,2024-07-21,West,Electronics,11,304.27,20,2446.24,3.0,USD,Not what I expected from the photos
+1229,2024-07-21,North,Groceries,4,30.52,15,94.82,4.0,USD,Excellent quality and fast delivery
+1230,2024-07-22,West,Furniture,13,181.89,0,2150.74,4.0,USD,Average experience overall
+1231,2024-07-23,West,Clothing,11,53.81,0,536.02,4.0,USD,Average experience overall
+1232,2024-07-25,,Clothing,4,63.82,15,194.77,3.0,USD,"Great value for the price, will buy again"
+1233,2024-07-25,East,Furniture,8,195.35,0,1402.89,3.0,USD,Average experience overall
+1234,2024-07-25,West,Groceries,2,27.64,0,49.63,5.0,USD,
+1235,2024-07-26,North,Groceries,2,22.41,0,40.06,5.0,USD,
+1236,2024-07-27,North,Clothing,14,50.68,10,568.21,4.0,USD,Not what I expected from the photos
+1237,2024-07-28,North,Groceries,12,22.33,0,237.4,5.0,USD,Excellent quality and fast delivery
+1238,2024-07-30,South,Toys,3,39.61,10,93.94,4.0,USD,"Great value for the price, will buy again"
+1239,2024-07-31,East,Clothing,4,52.76,20,147.66,4.0,USD,Arrived late but product is fine
+1240,2024-08-01,East,Clothing,3,51.64,15,114.69,4.0,USD,
+1241,2024-08-02,West,Electronics,6,356.14,20,1482.65,4.0,USD,Arrived late but product is fine
+1242,2024-08-03,North,Groceries,5,23.6,0,101.93,4.0,USD,Average experience overall
+1243,2024-08-06,East,Clothing,5,57.74,5,233.96,5.0,USD,Arrived late but product is fine
+1244,2024-08-08,North,Clothing,8,49.49,0,335.03,4.0,USD,
+1245,2024-08-09,North,Electronics,3,288.24,20,583.05,3.0,USD,"Great value for the price, will buy again"
+1246,2024-08-11,East,Groceries,13,22.98,10,224.82,4.0,USD,"Great value for the price, will buy again"
+1247,2024-08-12,West,Furniture,11,236.44,0,2166.44,4.0,USD,
+1248,2024-08-14,East,Groceries,11,22.31,5,192.74,3.0,USD,Not what I expected from the photos
+1249,2024-08-16,North,Electronics,3,359.93,10,797.45,5.0,USD,Not what I expected from the photos
+1250,2024-08-17,East,Toys,10,48.73,5,378.53,4.0,USD,Not what I expected from the photos
+1251,2024-08-17,North,Electronics,12,253.48,5,2362.6,3.0,USD,Average experience overall
+1252,2024-08-18,West,Electronics,3,254.5,0,622.02,5.0,USD,Not what I expected from the photos
+1253,2024-08-18,East,Groceries,11,21.3,5,181.32,5.0,USD,"Great value for the price, will buy again"
+1254,2024-08-19,North,Toys,6,43.15,0,210.19,3.0,USD,Arrived late but product is fine
+1255,2024-08-19,North,Electronics,12,256.47,15,2123.72,5.0,USD,Arrived late but product is fine
+1256,2024-08-20,North,Clothing,7,71.01,20,321.73,4.0,USD,Average experience overall
+1257,2024-08-23,West,Groceries,12,28.49,15,232.72,4.0,USD,Arrived late but product is fine
+1258,2024-08-25,South,Groceries,3,29.22,0,69.77,5.0,USD,"Great value for the price, will buy again"
+1259,2024-08-26,East,Furniture,6,228.08,15,922.9,4.0,USD,Excellent quality and fast delivery
+1260,2024-08-26,East,Clothing,4,74.91,0,237.74,4.0,USD,Not what I expected from the photos
+1261,2024-08-28,East,Groceries,4,20.5,0,64.66,4.0,USD,"Great value for the price, will buy again"
+1262,2024-08-29,North,Groceries,5,24.51,20,77.11,4.0,USD,Excellent quality and fast delivery
+1263,2024-08-29,West,Groceries,6,23.64,20,89.25,4.0,USD,Arrived late but product is fine
+1264,2024-08-29,,Clothing,2,73.61,0,115.78,4.0,USD,Average experience overall
+1265,2024-08-30,East,Electronics,10,317.88,0,2492.83,4.0,USD,Average experience overall
+1266,2024-08-30,East,Toys,8,46.51,15,248.03,4.0,USD,Arrived late but product is fine
+1267,2024-08-30,East,Groceries,12,21.92,5,195.93,4.0,USD,Not what I expected from the photos
+1268,2024-08-31,,Groceries,10,31.01,0,242.52,3.0,USD,Not what I expected from the photos
+1269,2024-08-31,North,Electronics,3,307.32,5,684.98,3.0,USD,Excellent quality and fast delivery
+1270,2024-09-01,South,Electronics,1,306.65,20,191.35,4.0,USD,
+1271,2024-09-01,South,Groceries,6,30.92,0,144.72,2.0,USD,Arrived late but product is fine
+1272,2024-09-02,South,Electronics,7,291.4,15,1348.89,4.0,USD,
+1273,2024-09-04,North,Toys,4,,15,103.06,4.0,USD,Excellent quality and fast delivery
+1274,2024-09-04,North,Furniture,11,233.89,20,1593.41,5.0,USD,"Great value for the price, will buy again"
+1275,2024-09-06,North,Groceries,9,21.44,0,148.7,4.0,USD,Not what I expected from the photos
+1276,2024-09-06,South,Groceries,11,23.61,0,200.15,5.0,USD,Excellent quality and fast delivery
+1277,2024-09-06,South,Furniture,2,195.13,5,285.7,4.0,USD,Average experience overall
+1278,2024-09-07,East,Furniture,12,186.23,5,1632.41,4.0,USD,Arrived late but product is fine
+1279,2024-09-11,East,Clothing,3,71.39,0,163.38,5.0,USD,"Great value for the price, will buy again"
+1280,2024-09-11,South,Clothing,7,63.91,15,290.12,4.0,USD,Excellent quality and fast delivery
+1281,2024-09-11,South,Clothing,7,57.68,15,261.85,5.0,USD,"Great value for the price, will buy again"
+1282,2024-09-12,North,Clothing,12,59.03,0,539.51,4.0,USD,
+1283,2024-09-12,East,Toys,4,39.77,15,102.97,4.0,USD,Average experience overall
+1284,2024-09-12,South,Clothing,4,65.1,0,198.3,5.0,USD,Average experience overall
+1285,2024-09-13,North,Electronics,5,365.11,0,1388.02,5.0,USD,Excellent quality and fast delivery
+1286,2024-09-14,South,Furniture,6,268.35,0,1222.26,5.0,USD,Average experience overall
+1287,2024-09-18,South,Furniture,3,214.76,0,486.49,4.0,USD,"Great value for the price, will buy again"
+1288,2024-09-18,North,Electronics,3,284.45,20,515.49,3.0,USD,"Great value for the price, will buy again"
+1289,2024-09-18,East,Electronics,4,300.89,5,863.37,3.0,USD,Arrived late but product is fine
+1290,2024-09-19,East,Groceries,7,26.39,10,125.4,,USD,"Great value for the price, will buy again"
+1291,2024-09-19,East,Furniture,5,221.72,0,836.18,5.0,USD,Average experience overall
+1292,2024-09-20,East,Toys,6,43.86,10,178.46,4.0,USD,"Great value for the price, will buy again"
+1293,2024-09-20,East,Electronics,11,314.84,0,2609.63,4.0,USD,Not what I expected from the photos
+1294,2024-09-22,South,Electronics,4,,15,724.55,4.0,USD,Average experience overall
+1295,2024-09-23,East,Groceries,13,23.89,20,186.76,,USD,Excellent quality and fast delivery
+1296,2024-09-25,South,Groceries,11,24.26,5,190.34,5.0,USD,Arrived late but product is fine
+1297,2024-09-25,South,Furniture,3,185.37,0,417.55,,USD,Not what I expected from the photos
+1298,2024-09-25,East,Electronics,5,262.42,5,935.91,4.0,USD,Not what I expected from the photos
+1299,2024-09-28,South,Electronics,3,337.62,0,759.76,5.0,USD,Excellent quality and fast delivery
+1300,2024-09-28,South,Clothing,4,58.51,5,166.77,4.0,USD,Not what I expected from the photos
+1301,2024-09-29,East,Clothing,6,53.79,0,242.07,,USD,Arrived late but product is fine
+1302,2024-09-29,West,Furniture,2,231.7,10,312.81,4.0,USD,
+1303,2024-09-30,,Electronics,1,342.0,0,256.5,4.0,USD,Average experience overall
+1304,2024-10-03,South,Clothing,7,54.95,0,288.64,3.0,USD,Not what I expected from the photos
+1305,2024-10-03,South,Toys,10,46.88,0,351.8,5.0,USD,"Great value for the price, will buy again"
+1306,2024-10-03,East,Groceries,5,30.43,20,91.35,4.0,USD,
+1307,2024-10-04,South,Clothing,13,64.13,15,531.95,4.0,USD,Average experience overall
+1308,2024-10-04,West,Electronics,6,330.31,15,1264.55,4.0,USD,Average experience overall
+1309,2024-10-05,South,Furniture,13,181.21,0,1769.15,4.0,USD,Not what I expected from the photos
+1310,2024-10-06,North,Furniture,4,269.61,0,810.38,5.0,USD,"Great value for the price, will buy again"
+1311,2024-10-07,North,Groceries,8,24.42,20,117.5,4.0,USD,Not what I expected from the photos
+1312,2024-10-07,West,Groceries,11,30.39,10,226.26,4.0,USD,Average experience overall
+1313,2024-10-08,North,Toys,1,42.42,0,31.92,4.0,USD,Average experience overall
+1314,2024-10-08,North,Toys,14,32.08,0,338.0,4.0,USD,"Great value for the price, will buy again"
+1315,2024-10-09,South,Toys,6,32.69,0,147.74,3.0,USD,
+1316,2024-10-11,North,Toys,7,44.25,20,187.0,2.0,USD,Not what I expected from the photos
+1317,2024-10-11,South,Electronics,9,315.96,0,2146.02,4.0,USD,"Great value for the price, will buy again"
+1318,2024-10-11,East,Electronics,10,243.58,20,1470.6,4.0,USD,Average experience overall
+1319,2024-10-11,North,Furniture,1,249.6,10,169.53,3.0,USD,"Great value for the price, will buy again"
+1320,2024-10-12,West,Clothing,13,71.01,20,557.95,4.0,USD,Excellent quality and fast delivery
+1321,2024-10-12,West,Electronics,9,307.02,15,1774.51,4.0,USD,Average experience overall
+1322,2024-10-13,South,Groceries,14,25.24,0,267.31,3.0,USD,Excellent quality and fast delivery
+1323,2024-10-13,North,Clothing,7,48.15,15,216.71,3.0,USD,Excellent quality and fast delivery
+1324,2024-10-14,East,Clothing,9,69.24,0,472.03,5.0,USD,Arrived late but product is fine
+1325,2024-10-14,North,Electronics,7,284.65,0,1509.31,5.0,USD,Average experience overall
+1326,2024-10-14,South,Furniture,13,263.0,0,2589.81,3.0,USD,Not what I expected from the photos
+1327,2024-10-16,West,Electronics,12,290.36,0,2647.13,4.0,USD,"Great value for the price, will buy again"
+1328,2024-10-17,West,Groceries,13,26.36,0,260.73,5.0,USD,Arrived late but product is fine
+1329,2024-10-17,East,Clothing,8,55.3,0,336.64,,USD,Arrived late but product is fine
+1330,2024-10-17,South,Groceries,12,21.81,0,199.12,4.0,USD,Not what I expected from the photos
+1331,2024-10-20,East,Furniture,6,252.72,0,1160.02,,USD,
+1332,2024-10-20,East,Furniture,7,225.16,0,1205.8,4.0,USD,Not what I expected from the photos
+1333,2024-10-21,South,Clothing,11,62.49,0,526.87,5.0,USD,Not what I expected from the photos
+1334,2024-10-22,East,Groceries,2,30.86,20,37.93,4.0,USD,Arrived late but product is fine
+1335,2024-10-22,North,Groceries,10,30.84,0,236.89,5.0,USD,Excellent quality and fast delivery
+1336,2024-10-24,North,Electronics,1,355.51,0,274.27,4.0,USD,Arrived late but product is fine
+1337,2024-10-26,South,Toys,9,35.38,0,246.78,5.0,USD,Excellent quality and fast delivery
+1338,2024-10-27,North,Electronics,7,320.23,0,1741.72,4.0,USD,Arrived late but product is fine
+1339,2024-10-28,North,Groceries,7,29.88,5,154.78,5.0,USD,Average experience overall
+1340,2024-10-29,West,Electronics,7,290.55,15,1350.23,4.0,USD,Arrived late but product is fine
+1341,2024-10-29,West,Furniture,7,186.01,15,864.41,3.0,USD,"Great value for the price, will buy again"
+1342,2024-10-30,East,Groceries,6,29.12,10,123.16,3.0,USD,"Great value for the price, will buy again"
+1343,2024-10-30,West,Electronics,7,305.04,0,1672.2,5.0,USD,Average experience overall
+1344,2024-10-30,West,Clothing,8,63.24,15,336.77,4.0,USD,Average experience overall
+1345,2024-10-30,North,Clothing,11,,0,641.93,3.0,USD,
+1346,2024-11-02,South,Electronics,8,321.97,10,1831.03,4.0,USD,Excellent quality and fast delivery
+1347,2024-11-03,South,Groceries,9,24.78,0,176.69,5.0,USD,Not what I expected from the photos
+1348,2024-11-04,North,Groceries,12,24.16,20,184.32,4.0,USD,"Great value for the price, will buy again"
+1349,2024-11-06,East,Groceries,14,24.7,0,276.5,4.0,USD,Not what I expected from the photos
+1350,2024-11-07,South,Furniture,2,187.72,10,271.08,5.0,USD,Excellent quality and fast delivery
+1351,2024-11-08,South,Clothing,10,69.46,5,531.13,3.0,USD,Average experience overall
+1352,2024-11-08,North,Electronics,4,353.09,5,1080.01,4.0,USD,Average experience overall
+1353,2024-11-08,North,Electronics,3,278.39,20,537.81,4.0,USD,"Great value for the price, will buy again"
+1354,2024-11-09,West,Electronics,12,281.01,10,2451.15,4.0,USD,Arrived late but product is fine
+1355,2024-11-09,North,Toys,1,47.74,0,38.56,5.0,USD,Not what I expected from the photos
+1356,2024-11-15,North,Groceries,12,20.27,5,190.67,5.0,USD,"Great value for the price, will buy again"
+1357,2024-11-19,North,Groceries,11,25.86,10,214.46,4.0,USD,Not what I expected from the photos
+1358,2024-11-20,South,Clothing,14,60.52,0,712.67,,USD,"Great value for the price, will buy again"
+1359,2024-11-21,East,Clothing,10,66.63,0,562.71,4.0,USD,"Great value for the price, will buy again"
+1360,2024-11-21,South,Clothing,13,52.41,5,546.62,4.0,USD,"Great value for the price, will buy again"
+1361,2024-11-21,North,Clothing,2,66.04,0,111.55,,USD,Arrived late but product is fine
+1362,2024-11-21,North,Clothing,13,58.17,0,638.63,4.0,USD,Excellent quality and fast delivery
+1363,2024-11-22,West,Electronics,3,323.53,0,822.94,5.0,USD,"Great value for the price, will buy again"
+1364,2024-11-23,East,Electronics,5,245.41,15,887.93,4.0,USD,
+1365,2024-11-23,East,Toys,2,40.31,15,58.34,4.0,USD,Arrived late but product is fine
+1366,2024-11-24,East,Clothing,6,62.1,0,318.5,4.0,USD,"Great value for the price, will buy again"
+1367,2024-11-25,East,Toys,11,35.86,0,338.55,4.0,USD,Arrived late but product is fine
+1368,2024-11-26,North,Electronics,4,258.85,0,892.4,4.0,USD,Excellent quality and fast delivery
+1369,2024-11-26,South,Clothing,12,53.09,15,466.72,4.0,USD,"Great value for the price, will buy again"
+1370,2024-11-27,South,Electronics,9,286.46,0,2231.37,,USD,"Great value for the price, will buy again"
+1371,2024-11-30,South,Furniture,9,,15,1244.46,3.0,USD,Average experience overall
+1372,2024-11-30,West,Electronics,14,367.89,15,3837.45,4.0,USD,Not what I expected from the photos
+1373,2024-12-02,South,Electronics,7,294.67,10,1641.31,5.0,USD,Arrived late but product is fine
+1374,2024-12-03,East,Toys,5,46.56,0,206.72,,USD,Excellent quality and fast delivery
+1375,2024-12-04,West,Furniture,14,272.47,20,2721.47,5.0,USD,Average experience overall
+1376,2024-12-07,South,Clothing,8,50.18,10,326.46,4.0,USD,Arrived late but product is fine
+1377,2024-12-07,West,Clothing,9,65.6,10,480.09,4.0,USD,Not what I expected from the photos
+1378,2024-12-08,East,Clothing,5,71.53,15,275.9,3.0,USD,"Great value for the price, will buy again"
+1379,2024-12-08,West,Clothing,4,65.12,20,189.14,3.0,USD,Arrived late but product is fine
+1380,2024-12-08,South,Electronics,3,297.92,0,811.14,4.0,USD,Not what I expected from the photos
+1381,2024-12-09,South,Toys,4,39.76,20,115.98,4.0,USD,"Great value for the price, will buy again"
+1382,2024-12-11,South,Groceries,3,20.4,15,47.85,4.0,USD,
+1383,2024-12-13,North,Groceries,11,26.01,0,265.52,5.0,USD,Average experience overall
+1384,2024-12-14,South,Clothing,1,74.83,0,69.74,4.0,USD,Arrived late but product is fine
+1385,2024-12-15,West,Electronics,9,369.43,15,2645.69,4.0,USD,
+1386,2024-12-16,East,Toys,14,32.73,0,430.84,5.0,USD,"Great value for the price, will buy again"
+1387,2024-12-17,North,Furniture,11,245.87,5,2426.83,4.0,USD,Not what I expected from the photos
+1388,2024-12-17,South,Electronics,6,280.74,10,1431.88,3.0,USD,
+1389,2024-12-19,North,Furniture,1,265.4,10,227.62,4.0,USD,Arrived late but product is fine
+1390,2024-12-19,North,Groceries,12,20.51,20,187.61,3.0,USD,Not what I expected from the photos
+1391,2024-12-19,West,Clothing,1,73.27,0,69.82,5.0,USD,Excellent quality and fast delivery
+1392,2024-12-20,South,Groceries,10,29.42,0,281.62,4.0,USD,Not what I expected from the photos
+1393,2024-12-21,South,Groceries,10,21.32,20,164.0,4.0,USD,Arrived late but product is fine
+1394,2024-12-22,East,Electronics,3,248.08,5,682.75,4.0,USD,Excellent quality and fast delivery
+1395,2024-12-24,North,Toys,11,47.02,0,503.94,,USD,Excellent quality and fast delivery
+1396,2024-12-27,North,Clothing,3,52.21,0,154.6,4.0,USD,Excellent quality and fast delivery
+1397,2024-12-27,East,Clothing,4,62.44,0,246.55,4.0,USD,Not what I expected from the photos
+1398,2024-12-28,East,Electronics,12,363.63,5,4109.66,4.0,USD,Average experience overall
+1399,2024-12-28,West,Toys,14,42.21,0,585.91,5.0,USD,Arrived late but product is fine
+1400,2024-12-29,East,Furniture,4,215.33,10,771.84,4.0,USD,Average experience overall
