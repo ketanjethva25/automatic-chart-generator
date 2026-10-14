@@ -1,149 +1,102 @@
-<div align="center">
-
 # 📊 Automatic Chart Generator & Data Explorer
-**An Intelligent, Heuristic-Driven Automated Exploratory Data Analysis (EDA) & Visualization Platform**
 
-[![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.14-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Gradio UI](https://img.shields.io/badge/Gradio-6.28.0-orange?logo=gradio&logoColor=white)](https://gradio.app/)
-[![Plotly Express](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/python/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Architecture](https://img.shields.io/badge/Architecture-Single--File%20Standalone-success)](#-project-architecture)
+A beginner-friendly and smart web application that automatically analyzes CSV datasets and creates interactive charts without writing any code.
+
+[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Gradio](https://img.shields.io/badge/Gradio-Web%20UI-orange.svg?logo=gradio&logoColor=white)](https://gradio.app/)
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75.svg?logo=plotly&logoColor=white)](https://plotly.com/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458.svg?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-<p align="center">
-  <b>Upload any tabular CSV file &mdash; get instant data profiling, comprehensive descriptive statistics, automated intelligent Plotly charts, and an interactive custom visualization studio.</b>
-</p>
+---
 
-[Key Features](#-key-features) •
-[App Walkthrough](#-application-tabs--walkthrough) •
-[Architecture](#-project-architecture) •
-[Heuristics Engine](#-chart-selection-heuristics) •
-[Quickstart](#-quickstart--installation) •
-[Deployment Guide](#-cloud-deployment-render)
+## 📌 About The Project
+
+When working with data, developers and data analysts usually write many lines of Python code using Pandas, Matplotlib, or Seaborn just to see basic charts, check missing values, and calculate statistics.
+
+**Automatic Chart Generator** solves this problem. You simply upload any CSV file, and the application will:
+1. Clean the data and detect column types (Numbers, Categories, Dates, Text, IDs).
+2. Show summary statistics and missing values.
+3. Automatically choose and build the best interactive charts for your dataset.
+4. Let you create your own custom charts using simple dropdowns.
+
+Everything is packed inside a single standalone Python file (`app.py`), making it very easy to understand, run, and deploy.
 
 ---
 
-</div>
+## ✨ Features
 
-## 🌟 Key Features
-
-- **🚀 Zero-Configuration Auto-Charting**:
-  Intelligently inspects dataset column relationships and automatically renders up to **12 publication-grade interactive Plotly visualizations** (Line, Bar, Pie, Scatter with Pearson correlation trendlines, Heatmaps, and Distribution Histograms).
-
-- **🛡️ Robust & Fault-Tolerant CSV Ingestion**:
-  Automatically sniffs delimiters (`,`, `;`, `\t`, `|`) and handles multiple character encodings (`utf-8`, `utf-8-sig`, `cp1252`, `latin-1`). Gracefully handles binary, corrupted, or empty files without crashing.
-
-- **🧠 Semantic Column Classification**:
-  Goes far beyond raw pandas datatypes. Automatically classifies columns into **Numeric**, **Categorical**, **Datetime**, **Identifier**, **Free Text**, **Constant**, or **Empty**, parsing numbers formatted as currency (`$1,250.50`), percentages (`18.5%`), and international date formats.
-
-- **📋 Complete Dataset Profiling & Statistics**:
-  Provides instant missing-value diagnostics, uniqueness ratios, memory previews, and a full suite of descriptive summary statistics tailored to column types (`mean`, `std`, `min`, `quartiles`, `max`, `frequencies`).
-
-- **🎨 Interactive Custom Chart Studio**:
-  Empowers users to customize X and Y axes, pick from 8 visualization types, and apply dynamic aggregations (`mean`, `sum`, `count`, `min`, `max`, `median`) with built-in sanity checks and helpful error explanations.
-
-- **⚡ Lightweight & Standalone**:
-  Engineered as a clean, unified application in **`app.py`**. Zero complex external modules, minimal dependencies, and ready to run locally or deploy to cloud servers in seconds.
+- **Automatic Chart Creation**: Generates up to 12 smart interactive charts (Line, Bar, Pie, Scatter, Heatmap, and Histogram) based on your data.
+- **Smart Data Detection**: Automatically identifies dates, categories, numbers, and text. Cleans formatted numbers like `$1,200` or `15%`.
+- **Dataset Overview & Statistics**: Displays total rows, columns, missing values, mean, median, standard deviation, and min/max values.
+- **Custom Chart Studio**: Lets you pick X-axis, Y-axis, chart type, and calculation type (mean, sum, count, min, max, median).
+- **Interactive Visualizations**: Hover over any chart to see exact numbers, zoom in/out, pan, and download charts as PNG images.
+- **Error-Proof**: If you select columns that cannot be combined, it shows a friendly explanation instead of crashing.
 
 ---
 
-## 🖥️ Application Tabs & Walkthrough
+## 🖥️ Application Walkthrough (4 Tabs)
 
-The web dashboard is organized into four purpose-built tabs:
+The application has 4 simple tabs:
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                     📊 Automatic Chart Generator                       │
-│  [ Upload CSV File ] ─────────────────────────── Status: ✅ Loaded     │
-├───────────────────┬─────────────────────┬─────────────────┬────────────┤
-│ 1 · Preview       │ 2 · Statistics      │ 3 · Auto Charts │ 4 · Custom │
-└───────────────────┴─────────────────────┴─────────────────┴────────────┘
-```
+### 1. Dataset Preview
+- Shows the total rows, columns, and missing values.
+- Displays an interactive table of the first 10 rows.
+- Lists all columns with their detected data type and whether they are suitable for charts.
 
-### 1️⃣ Tab 1: Dataset Preview
-- **Dataset Overview Card**: Displays total rows, columns, and total missing cells.
-- **Data Preview Table**: Interactive view of the first 10 rows with formatted timestamps and clean null representation.
-- **Detected Types Table**: Detailed audit table displaying each column's detected semantic kind, original datatype, missing percentage, unique counts, and auto-chart usability status with explanatory notes.
+### 2. Dataset Statistics
+- Shows descriptive statistics for every column.
+- For numbers: count, mean, standard deviation, min, 25%, median, 75%, and max.
+- For dates: earliest and latest dates.
+- For categories: most frequent item and its count.
 
-### 2️⃣ Tab 2: Dataset Statistics
-- **Descriptive Statistical Summary**: Computes mean, standard deviation, minimum, 25th percentile, median, 75th percentile, and maximum for numeric features.
-- **Categorical & Datetime Metrics**: Highlights date spans (`Min`/`Max`) for temporal columns, and primary modal classes (`Top Value` and `Top Count`) for categorical features.
+### 3. Automatic Charts
+- Automatically selects and displays up to 12 relevant Plotly charts in a clean 2-column grid.
+- Each chart has a title and a simple note explaining why that chart was chosen.
 
-### 3️⃣ Tab 3: Automatic Charts
-- Renders an intelligent portfolio of up to **12 interactive Plotly charts** arranged in a responsive 2-column layout.
-- Each chart includes human-readable rationale captions explaining *why* the visualization was selected (e.g., *"Scatter plot (strong correlation, r = 0.74)"* or *"Categorical distribution (6 or fewer values) -> pie chart"*).
-- Features hover tooltips, box-zoom, pan, lasso select, and one-click PNG export.
-
-### 4️⃣ Tab 4: Custom Chart Studio
-- **Control Bar**:
-  - **X-axis Selector**: Populated with all valid columns in your dataset.
-  - **Y-axis Selector**: Optional secondary measure (or set to `(none)` for single-variable analysis).
-  - **Chart Type**: Choose between *Auto*, *Scatter*, *Line*, *Bar*, *Pie*, *Histogram*, *Box*, or *Correlation Heatmap*.
-  - **Aggregation Function**: Choose *mean*, *sum*, *count*, *min*, *max*, or *median*.
-- **Intelligent Error Shield**: Invalid mathematical or categorical combinations (such as computing a mean of string columns or requesting negative values in a pie chart) provide friendly, actionable feedback instead of crashing.
+### 4. Custom Chart
+- Allows you to build your own chart:
+  - **X-axis**: Pick any column.
+  - **Y-axis**: Pick a value column (optional).
+  - **Chart Type**: Choose from Auto, Scatter, Line, Bar, Pie, Histogram, Box, or Heatmap.
+  - **Aggregation**: Choose mean, sum, count, min, max, or median.
 
 ---
 
-## 🏗️ Project Architecture
+## 🎯 How the App Chooses Charts Automatically
 
-The project is structured as a clean, production-ready standalone repository:
+The system follows simple logic rules based on the columns in your data:
+
+| Column Types in Data | Chart Chosen | Reason |
+| :--- | :--- | :--- |
+| **Date + Number** | **Line Chart** | Best for showing changes and trends over time. |
+| **Category (2 to 6 values)** | **Pie / Donut Chart** | Best for showing percentage shares of a whole. |
+| **Category (more than 6 values)** | **Bar Chart** | Best for comparing values across multiple items clearly. |
+| **Two Numeric Columns** | **Scatter Plot** | Shows the relationship and trendline between two numbers. |
+| **Multiple Numeric Columns** | **Correlation Heatmap** | Shows how strongly different numbers are related. |
+| **Single Numeric Column** | **Histogram + Box Plot** | Shows data spread, distribution, and outliers. |
+
+---
+
+## 📁 Project Structure
 
 ```text
 automatic-chart-generator/
 │
-├── app.py              # Main standalone application (Data Processing, Charting & Gradio UI)
-├── requirements.txt    # Project dependencies (gradio, pandas, numpy, plotly)
-├── sample.csv          # Sample transactional retail dataset (400 rows x 11 columns)
-├── .gitignore          # Git configuration
+├── app.py              # Main application (Data Cleaning, Charting & Gradio Web UI)
+├── requirements.txt    # Python libraries required
+├── sample.csv          # Sample sales dataset for testing (400 rows x 11 columns)
+├── .gitignore          # Git ignore file
 ├── LICENSE             # MIT License
-└── README.md           # Documentation
-```
-
-### Internal Data Flow
-
-```
-[ CSV File Upload ]
-        │
-        ▼
-[ load_csv() ] ────────────► Sniff delimiter & encoding; strip whitespace; drop empty rows
-        │
-        ▼
-[ prepare_dataframe() ] ───► Detect column semantic kinds (Numeric / Date / Categorical / ID)
-        │                    Parse currency ($) / percentages (%) / timestamps
-        │
-        ├──────────────────► Generate Column Profile & Summary Statistics (Tabs 1 & 2)
-        │
-        ▼
-[ generate_auto_charts() ] ─► Allocate chart budget across candidate families
-        │                    Render responsive Plotly figures (Tab 3)
-        │
-        ▼
-[ build_custom_chart() ] ──► Dynamic aggregation & custom user visualization (Tab 4)
+└── README.md           # Project documentation
 ```
 
 ---
 
-## 🎯 Chart Selection Heuristics
-
-The application executes deterministic data-profiling rules to select the best chart type:
-
-| Semantic Combination | Heuristic Decision | Rendered Plotly Chart |
-| :--- | :--- | :--- |
-| **Datetime × Numeric** | Trend over time (auto-binned if >200 timestamps) | **Line Chart** with responsive markers |
-| **Categorical (≤ 6 classes)** | Proportion of parts to whole | **Donut / Pie Chart** |
-| **Categorical (> 6 classes)** | Frequency or measure distribution | **Horizontal / Vertical Bar Chart** |
-| **Numeric × Numeric** | Correlated pairs ($$\|r\| \ge 0.3$$) | **Scatter Plot** with linear trendline & categorical color hue |
-| **Multiple Numerics ($\ge 2$)** | Global feature interdependence | **Correlation Heatmap** ($$-1.0$$ to $$+1.0$$ Pearson $$r$$) |
-| **Single Numeric** | Distribution, skewness, and outliers | **Histogram** with marginal Box Plot |
-| **Category × Category** | Cross-tabulation of discrete frequencies | **Stacked Bar Chart** |
-
----
-
-## 🚀 Quickstart & Installation
+## 🚀 How to Run Locally
 
 ### 1. Prerequisites
-- Python **3.10+** (Tested on Python 3.12, 3.13, and 3.14)
-- Git
+Make sure you have **Python 3.10 or higher** installed on your computer.
 
 ### 2. Clone the Repository
 ```bash
@@ -151,13 +104,13 @@ git clone https://github.com/<your-username>/automatic-chart-generator.git
 cd automatic-chart-generator
 ```
 
-### 3. Create and Activate Virtual Environment
+### 3. Create a Virtual Environment (Recommended)
 ```bash
-# Windows
+# On Windows:
 python -m venv .venv
 .venv\Scripts\activate
 
-# macOS / Linux
+# On macOS / Linux:
 python3 -m venv .venv
 source .venv/bin/activate
 ```
@@ -167,63 +120,52 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 5. Launch the Application
+### 5. Run the App
 ```bash
 python app.py
 ```
 
-Open your browser and navigate to:
+Now open your web browser and go to:
 ```
 http://127.0.0.1:7860
 ```
-Drag and drop `sample.csv` (provided in the root directory) to explore all features instantly!
+Drag and drop the included `sample.csv` file into the upload box to test the app!
 
 ---
 
-## ☁️ Cloud Deployment (Render)
+## ☁️ Free Cloud Deployment (Render.com)
 
-You can deploy this application for free on [Render](https://render.com/):
+You can easily host this application online for free using [Render.com](https://render.com/):
 
-1. Push your repository to **GitHub**.
-2. Log in to [Render Dashboard](https://dashboard.render.com/) and click **New + ➔ Web Service**.
-3. Connect your GitHub repository `automatic-chart-generator`.
-4. Configure service settings:
+1. Push your project code to your **GitHub repository**.
+2. Go to [Render.com](https://render.com/) and sign up with GitHub.
+3. Click on **New +** and select **Web Service**.
+4. Connect your `automatic-chart-generator` repository.
+5. Fill in the following settings:
    - **Environment:** `Python 3`
    - **Build Command:** `pip install -r requirements.txt`
    - **Start Command:** `python app.py`
-   - **Instance Type:** `Free`
-5. Click **Deploy Web Service**. Your app will be live on a public URL (e.g. `https://automatic-chart-generator.onrender.com`).
+   - **Plan:** `Free`
+6. Click **Deploy Web Service**. Render will give you a free permanent link to share with anyone!
 
 ---
 
-## 📦 Dependencies
+## 🛠️ Built With
 
-The application relies strictly on battle-tested core data science and web libraries:
-
-```text
-gradio==6.28.0
-pandas>=2.1
-numpy>=1.24
-plotly>=5.18
-```
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature suggestions are welcome!
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- **[Python](https://www.python.org/)** - Core programming language
+- **[Gradio](https://gradio.app/)** - Web interface and interactive components
+- **[Pandas](https://pandas.pydata.org/)** - Data loading, cleaning, and statistics
+- **[Plotly](https://plotly.com/)** - Interactive charts and visualizations
+- **[NumPy](https://numpy.org/)** - Numerical calculations
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
 
 <div align="center">
-  <sub>Built with ❤️ using Python, Gradio, Pandas, and Plotly.</sub>
+  <sub>Designed and built with clean code and simple logic for easy data exploration.</sub>
 </div>
