@@ -1209,4 +1209,10 @@ with gr.Blocks(title="Automatic Chart Generator") as demo:
 
 
 if __name__ == "__main__":
-    demo.queue().launch(allowed_paths=[str(BASE_DIR)])
+    port = int(os.environ.get("PORT", 7860))
+    host = os.environ.get("GRADIO_SERVER_NAME", "0.0.0.0")
+    demo.queue().launch(
+        server_name=host,
+        server_port=port,
+        allowed_paths=[str(BASE_DIR)]
+    )
